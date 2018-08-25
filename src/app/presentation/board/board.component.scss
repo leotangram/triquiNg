@@ -1,0 +1,36 @@
+.board {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  background-color: limegreen;
+  color: #fff;
+}
+
+.gameStatus {
+	margin: 0px;
+	padding: 15px;
+  background-color: rgb(249, 224, 133);
+  color: lightseagreen;
+  font-size: 1.4em;
+  font-weight: bold;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.restart {
+  background-color: rgb(249, 224, 133);
+  color: lightseagreen;
+  border: 0px;
+  font-size: 1.4em;
+  font-weight: bold;
+  margin: 0px;
+  padding: 15px;
+  width: 100%;
+  margin-top: 16px;
+  border-radius: 8px;
+}
+.restart:hover {
+  background-color: #c1cdcd;
+  cursor: pointer;
+}
